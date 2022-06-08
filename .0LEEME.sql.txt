@@ -1,0 +1,13 @@
+conda --version
+conda deactivate
+conda create -n lab1_MLOPS python=3.8
+pip freeze
+pip install -r requirements.txt
+
+pytest tests
+pytest tests -v
+pytest tests -v  # Para que salgan los print
+
+--#el module es CROSS para todos lo TEST
+---Para hacer coverage  el src es la capreta y esl tests la cpareta de test
+pytest --cov=src tests/ -v
