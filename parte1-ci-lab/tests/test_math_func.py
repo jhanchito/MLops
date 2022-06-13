@@ -23,7 +23,6 @@ def test_add_strings():
     assert type(result) is str
     assert 'Hello' in result
 
-
 #@pytest.mark.strings
 def test_product_strings():
     assert math_func.product('Hello ', 3) == 'Hello Hello Hello '
