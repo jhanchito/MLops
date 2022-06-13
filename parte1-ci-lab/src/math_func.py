@@ -4,3 +4,4 @@ def add(x, y=2):
 
 def product(x, y=2):
     return x * y
+
